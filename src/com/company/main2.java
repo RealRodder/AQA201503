@@ -19,6 +19,7 @@ public class main2 {
         */
       // Если первый элемент args равен "Hello", а второй "Class" тогда напечатать в консоль
       // "Success", иначе - напечатать "Good bye!"
+        /*
         if (args[0].equals ("Hello") && args[1].equals ("Class"))
         {
             System.out.println("Success!");
@@ -27,6 +28,26 @@ public class main2 {
         {
             System.out.println("Good bye!");
         }
+        */
+
+        // Цикл while
+        int a = 10;
+        while (a <= 15)
+        {
+            System.out.println("a is: " + a);
+            a = a+1;
+        }
+
+        while (true)
+        {
+          if (a <= 20)
+          {
+            System.out.println("Break!");
+            break; // Выход из цикла while (true)
+          }
+          a = a + 1;
+        }
+
 
     }
 }
