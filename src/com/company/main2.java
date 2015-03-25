@@ -40,12 +40,13 @@ public class main2 {
 
         while (true)
         {
-          if (a <= 20)
+          if (a == 20)
           {
             System.out.println("Break!");
             break; // Выход из цикла while (true)
           }
           a = a + 1;
+          System.out.println(a);
         }
 
 
