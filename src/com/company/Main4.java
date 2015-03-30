@@ -32,6 +32,11 @@ public class Main4 {
       k.Print();
       l.Print();
 
+      k.isOpened = true;
+
+      k.Print();
+      l.Print();
+
     }
 
 }

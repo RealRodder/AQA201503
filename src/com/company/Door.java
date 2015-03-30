@@ -20,5 +20,11 @@ public class Door {                 // это - класс
 
     public void Print () {
         System.out.println(height);
+        if (isOpened) {
+            System.out.println("Door is opened");
+        }
+        else {
+            System.out.println("Door is closed");
+        }
     }
 }
